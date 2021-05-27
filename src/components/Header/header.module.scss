@@ -1,0 +1,22 @@
+.headerContainer {
+  height: 6.5rem;
+  border-bottom: 1px solid #29292E;
+}
+
+.headerContent {
+  max-width: 1120px;
+  height: 6.5rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+    transition: filter 0.3s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

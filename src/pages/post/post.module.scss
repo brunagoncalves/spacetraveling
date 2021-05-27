@@ -1,0 +1,48 @@
+.banner {
+  width: 100%;
+}
+
+.postContent {
+  margin: 5rem 0;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3.625rem;
+  }
+
+  .infoPost {
+    display: flex;
+    gap: 1.5rem;
+
+    time, span {
+      font-size: 0.875rem;
+      color: var(--text-info);
+      margin-top: 1.5rem;
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  article {
+    margin-top: 4rem;
+
+    h2 {
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
+
+    div {
+      margin-top: 2rem;
+
+      p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        text-align: justify;
+      }
+    }
+  }
+}
